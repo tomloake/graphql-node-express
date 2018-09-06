@@ -1,0 +1,26 @@
+{
+  "name": "graphql-node-express",
+  "version": "1.0.0",
+  "description": "experimenting from https://medium.com/codingthesmartway-com-blog/creating-a-graphql-server-with-node-js-and-express-f6dddc5320e1",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tomloake/graphql-node-express.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tomloake/graphql-node-express/issues"
+  },
+  "homepage": "https://github.com/tomloake/graphql-node-express#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "express-graphql": "^0.6.12",
+    "graphql": "^14.0.0"
+  }
+}
